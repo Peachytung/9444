@@ -1,0 +1,78 @@
+# =========================
+# Dataset files
+# =========================
+
+# Do not upload large datasets
+data/
+UECFoodPIX/
+UECFOODPIX/
+UECFoodPix/
+datasets/
+
+# Image and mask files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# Large compressed dataset files
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# =========================
+# Model checkpoints
+# =========================
+
+checkpoints/
+models/
+weights/
+runs/
+outputs/
+results/
+
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.onnx
+
+# =========================
+# Python cache
+# =========================
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments
+# =========================
+
+venv/
+env/
+.venv/
+.env/
+
+# =========================
+# IDE / system files
+# =========================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+wandb/
