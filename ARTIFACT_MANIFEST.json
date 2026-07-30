@@ -1,0 +1,10 @@
+{
+  "status": "PENDING",
+  "reason": "Configuration updated to train=3000, validation=500, epochs=30, width=384, height=320, batch_size=2, lr=3e-4, dropout=0.2. Regenerate this manifest after the updated training artifacts are produced.",
+  "active_split_files": [
+    "splits/train_3000.txt",
+    "splits/val_500.txt",
+    "splits/test_official_1000.txt"
+  ],
+  "active_output_dir": "outputs_3000_val500_384x320"
+}
