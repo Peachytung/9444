@@ -1,0 +1,73 @@
+# Default: ignore everything in this baseline package.
+*
+
+# Keep directories visible so the allow-list below can work.
+!*/
+
+# Core project files needed to reproduce/run the baselines.
+!.gitignore
+!README.md
+!requirements.txt
+
+# Executed baseline notebook.
+!notebooks/
+!notebooks/baseline_experiments.ipynb
+
+# Source code.
+!src/
+!src/*.py
+
+# Fixed train/validation/test splits.
+!splits/
+!splits/*.json
+!splits/*.txt
+
+# Small result artifacts to show completed runs.
+!outputs/
+!outputs/comparison/
+!outputs/comparison/baseline_results.csv
+!outputs/comparison/baseline_results.json
+!outputs/comparison/baseline_comparison.png
+
+!outputs/resnet50_fcn/
+!outputs/resnet50_fcn/history.csv
+!outputs/resnet50_fcn/best_validation_metrics.json
+!outputs/resnet50_fcn/test_metrics.json
+!outputs/resnet50_fcn/test_per_class_metrics.csv
+!outputs/resnet50_fcn/test_confusion_matrix.csv
+!outputs/resnet50_fcn/test_confusion_matrix.png
+!outputs/resnet50_fcn/training_curves.png
+!outputs/resnet50_fcn/test_predictions.png
+
+!outputs/vgg16_fcn/
+!outputs/vgg16_fcn/history.csv
+!outputs/vgg16_fcn/best_validation_metrics.json
+!outputs/vgg16_fcn/test_metrics.json
+!outputs/vgg16_fcn/test_per_class_metrics.csv
+!outputs/vgg16_fcn/test_confusion_matrix.csv
+!outputs/vgg16_fcn/test_confusion_matrix.png
+!outputs/vgg16_fcn/training_curves.png
+!outputs/vgg16_fcn/test_predictions.png
+
+# Always keep heavy or local-only artifacts out.
+*.pt
+*.pth
+*.ckpt
+*.npy
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+logs/
+hpc/
+reproducibility/
+reports/
+slides/
+scripts/
+AGENTS.md
+ARTIFACT_*
+FINAL_QA_*
+LEGACY_ARCHIVE_REVIEW_CN.md
+Makefile
+RUN_SUMMARY.md
+SUBMISSION_CHECKLIST.md
+WHAT_TO_SUBMIT_CN.md
