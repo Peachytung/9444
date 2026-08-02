@@ -1,4 +1,0 @@
-{
-  "overall": "PENDING",
-  "reason": "Configuration updated to train=3000, validation=500, epochs=30, width=384, height=320, batch_size=2, lr=3e-4, dropout=0.2. Re-run scripts/final_qa.py after the updated training artifacts are generated."
-}
