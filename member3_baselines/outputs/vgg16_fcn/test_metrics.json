@@ -1,0 +1,16 @@
+{
+  "best_epoch": 29,
+  "best_validation_mean_iou": 0.0939855116426583,
+  "model": "vgg16_fcn",
+  "test": {
+    "foreground_mean_iou": 0.06251053016162322,
+    "loss": 2.8676979541778564,
+    "macro_f1": 0.11281331144342083,
+    "macro_precision": 0.1592569306188463,
+    "macro_recall": 0.09914345061395542,
+    "mean_class_accuracy": 0.10758485096160987,
+    "mean_iou": 0.06929513096760218,
+    "pixel_accuracy": 0.5896390869140625,
+    "present_classes": 103
+  }
+}

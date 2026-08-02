@@ -1,0 +1,10 @@
+{
+  "foreground_mean_iou": 0.1390749404977921,
+  "macro_f1": 0.2250102696975451,
+  "macro_precision": 0.28133397013280687,
+  "macro_recall": 0.21940783523432517,
+  "mean_class_accuracy": 0.22649614550222297,
+  "mean_iou": 0.14546170832696997,
+  "pixel_accuracy": 0.6508534016927083,
+  "present_classes": 103
+}
