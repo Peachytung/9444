@@ -36,7 +36,6 @@ runs/
 outputs/
 results/
 
-*.pt
 *.pth
 *.ckpt
 *.h5
